@@ -1,10 +1,8 @@
 http://vision.stanford.edu/aditya86/ImageNetDogs/
 
-The aim of this project is to explore the decision process of CNN for dog breed classification.
+Le but de ce projet est d'explorer le processus de decision de classification de race de chien ar un réseau de neurone convolutif à l'aide d'algorithmes d'explicabilité (XAI)
 
-We use only the 10 dogs breed having the maximum amount of pictures ('Afghan_hound', 'Bernese_mountain_dog', 'Great_Pyrenees','Irish_wolfhound', 'Leonberg', 'Maltese_dog', 'Pomeranian','Samoyed', 'Scottish_deerhound', 'Shih-Tzu').
-
-
+Nous n'utilisons que 10 race de chiens pour entrainer 2 réseaux de neuronnes par transfert learning (VGG16, inceptionV3) dont la prise de décision sera analysé avec 2 XAI (LIME, GradCam).
 
 Objectif général 1: Entrainer 2 réseaux CNN pour la classification de races de chiens
 
